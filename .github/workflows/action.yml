@@ -1,10 +1,10 @@
 name: WinRAR Keygen
 
-on:
-  push:
-    branches: [ master ]
-    paths:
-      - 'keygen/*.json'
+on: workflow_dispatch
+#   push:
+#     branches: [ master ]
+#     paths:
+#       - 'keygen/*.json'
 
 jobs:
   build:
